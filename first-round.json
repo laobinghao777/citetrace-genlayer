@@ -1,0 +1,117 @@
+{
+  "wallet": "0xF10aB469555eb723d62A565217EE678A8C200526",
+  "contract": "0x9D34993A82039478b496a2fAe403BA12DD6e14AA",
+  "chainId": 4221,
+  "network": "Bradbury Phase 2",
+  "balanceGEN": "99.996657405079932613",
+  "netCostGEN": "0.000310945290005998",
+  "balanceChangeGEN": "0.000310945290005998",
+  "transactions": [
+    {
+      "action": "deploy",
+      "contract": "0x9D34993A82039478b496a2fAe403BA12DD6e14AA",
+      "startedAt": "2026-11-16T05:59:18.451Z",
+      "beforeWei": "99996968350369938611",
+      "feeDepositWei": "25000000000004235",
+      "status": "finalized",
+      "maxCostWei": "25170710760004235",
+      "evmHash": "0x21c3cf09bbd95c5bfaf985dba2c6b30eff8e57aa6f9cc62c851083a3c0cea486",
+      "txId": "0xa67ff2027282c2a4d098a2d7c832900587b4fd8763971ee986ff093d4c5fe06b",
+      "finalizedAt": "2026-11-16T06:00:47.572Z",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "protocolStatus": "FINALIZED",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "afterWei": "99996824513039936494",
+      "netCostWei": "143837330002117",
+      "netCostGEN": "0.000143837330002117",
+      "gasUsed": "8188708",
+      "gasPriceWei": "10000000",
+      "evmFeeWei": "81887080000000"
+    },
+    {
+      "action": "create_review",
+      "contract": "0x9D34993A82039478b496a2fAe403BA12DD6e14AA",
+      "startedAt": "2026-11-16T06:03:57.029Z",
+      "beforeWei": "99996824513039936494",
+      "feeDepositWei": "25000000000004235",
+      "status": "finalized",
+      "maxCostWei": "25046918220004235",
+      "evmHash": "0x94ab645cc5cf0e817d87ce3e2a538d46fdc894e76bd3dd987cfb1a2f30a17ccd",
+      "txId": "0x3e515db054a2fc583a4ee77e786345d143fcf4cd8698c31d161c983f4867a444",
+      "finalizedAt": "2026-11-16T06:05:36.110Z",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "protocolStatus": "FINALIZED",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "afterWei": "99996740335159934377",
+      "netCostWei": "84177880002117",
+      "netCostGEN": "0.000084177880002117",
+      "gasUsed": "2228663",
+      "gasPriceWei": "10000000",
+      "evmFeeWei": "22286630000000"
+    },
+    {
+      "action": "resolve",
+      "contract": "0x9D34993A82039478b496a2fAe403BA12DD6e14AA",
+      "startedAt": "2026-11-16T06:05:38.951Z",
+      "beforeWei": "99996740335159934377",
+      "feeDepositWei": "25000000000004235",
+      "status": "finalized",
+      "maxCostWei": "25043482740004235",
+      "evmHash": "0xcdd1b126ad1e677ec60831eced5327955e722c5d3594945123ea20262b9c4411",
+      "txId": "0x8531cc66bcda28b81e36437d228ded95d5a377169e9b3d7c4d597a3e06c51fea",
+      "finalizedAt": "2026-11-16T06:07:20.039Z",
+      "consensusResult": "MAJORITY_AGREE",
+      "outcome": "accepted",
+      "protocolStatus": "FINALIZED",
+      "executionResult": "FINISHED_WITH_RETURN",
+      "afterWei": "99996657405079932613",
+      "netCostWei": "82930080001764",
+      "netCostGEN": "0.000082930080001764",
+      "gasUsed": "2054183",
+      "gasPriceWei": "10000000",
+      "evmFeeWei": "20541830000000"
+    }
+  ],
+  "pending": false,
+  "total": 1,
+  "items": [
+    {
+      "claim": "Workshop Orion opens at 09:00 on 20 November 2026.",
+      "creator": "0xF10aB469555eb723d62A565217EE678A8C200526",
+      "id": "1",
+      "rounds": [
+        {
+          "author": "0xF10aB469555eb723d62A565217EE678A8C200526",
+          "number": 1,
+          "parent": 0,
+          "result": {
+            "classifications": [
+              {
+                "id": 1,
+                "quote": "Workshop Orion opens at 09:00 on 20 November 2026.",
+                "relation": "supports"
+              }
+            ],
+            "contradicting_ids": [],
+            "insufficient_ids": [],
+            "supporting_ids": [
+              1
+            ],
+            "verdict": "support_only"
+          },
+          "snapshot_sha256": "26658c161cc04fda661ed42b8dfd219d6ce136bf18d7d8b21d28a13151addc63",
+          "sources": [
+            {
+              "excerpt": "Workshop Orion opens at 09:00 on 20 November 2026.",
+              "reference": "Synthetic schedule A (test fixture)"
+            }
+          ],
+          "status": "resolved"
+        }
+      ],
+      "title": "Synthetic workshop schedule review"
+    }
+  ]
+}
