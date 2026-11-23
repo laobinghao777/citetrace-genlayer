@@ -1,0 +1,75 @@
+{
+  "claim": "Workshop Orion opens at 09:00 on 20 November 2026.",
+  "creator": "0xF10aB469555eb723d62A565217EE678A8C200526",
+  "id": "1",
+  "rounds": [
+    {
+      "author": "0xF10aB469555eb723d62A565217EE678A8C200526",
+      "number": 1,
+      "parent": 0,
+      "result": {
+        "classifications": [
+          {
+            "id": 1,
+            "quote": "Workshop Orion opens at 09:00 on 20 November 2026.",
+            "relation": "supports"
+          }
+        ],
+        "contradicting_ids": [],
+        "insufficient_ids": [],
+        "supporting_ids": [
+          1
+        ],
+        "verdict": "support_only"
+      },
+      "snapshot_sha256": "26658c161cc04fda661ed42b8dfd219d6ce136bf18d7d8b21d28a13151addc63",
+      "sources": [
+        {
+          "excerpt": "Workshop Orion opens at 09:00 on 20 November 2026.",
+          "reference": "Synthetic schedule A (test fixture)"
+        }
+      ],
+      "status": "resolved"
+    },
+    {
+      "author": "0xF10aB469555eb723d62A565217EE678A8C200526",
+      "number": 2,
+      "parent": 1,
+      "result": {
+        "classifications": [
+          {
+            "id": 1,
+            "quote": "Workshop Orion opens at 09:00 on 20 November 2026.",
+            "relation": "supports"
+          },
+          {
+            "id": 2,
+            "quote": "Workshop Orion opens at 11:00 on 20 November 2026; the earlier 09:00 opening is cancelled.",
+            "relation": "contradicts"
+          }
+        ],
+        "contradicting_ids": [
+          2
+        ],
+        "insufficient_ids": [],
+        "supporting_ids": [
+          1
+        ],
+        "verdict": "conflicted"
+      },
+      "snapshot_sha256": "0030adf7a544561e721e5c985fbb50173753e7263cd9aecd48e33dd70db49ab1",
+      "sources": [
+        {
+          "excerpt": "Workshop Orion opens at 09:00 on 20 November 2026.",
+          "reference": "Synthetic schedule A (test fixture)"
+        },
+        {
+          "excerpt": "Workshop Orion opens at 11:00 on 20 November 2026; the earlier 09:00 opening is cancelled.",
+          "reference": "Synthetic correction B (test fixture)"
+        }
+      ],
+      "status": "resolved"
+    }
+  ],
+  "title": "Synthetic workshop schedule review"
+}
